@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/funWithTriangles/static/css/main.4891be27.chunk.css",
+    "main.js": "/funWithTriangles/static/js/main.e9787342.chunk.js",
+    "runtime-main.js": "/funWithTriangles/static/js/runtime-main.06eee204.js",
+    "static/js/2.ae094049.chunk.js": "/funWithTriangles/static/js/2.ae094049.chunk.js",
+    "static/js/3.6d93a3ac.chunk.js": "/funWithTriangles/static/js/3.6d93a3ac.chunk.js",
+    "index.html": "/funWithTriangles/index.html",
+    "static/js/2.ae094049.chunk.js.LICENSE.txt": "/funWithTriangles/static/js/2.ae094049.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.06eee204.js",
+    "static/js/2.ae094049.chunk.js",
+    "static/css/main.4891be27.chunk.css",
+    "static/js/main.e9787342.chunk.js"
+  ]
+}
