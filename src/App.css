@@ -1,0 +1,211 @@
+:root {
+  --primary-color: #000;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+header {
+  padding: 1rem;
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+header h1 {
+  text-align: initial;
+}
+
+nav {
+  text-align: right;
+}
+
+nav > a {
+  padding: 0 0.5rem;
+}
+
+a, img, li {
+  display: inline;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #efefef;
+}
+
+.background-image {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-size: cover;
+	-webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(2px);
+}
+
+input {
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: large;
+  margin: 1rem 0;
+  width: 60%;
+}
+
+.input-label {
+  font-weight: 500;
+  font-size: 1.3rem;
+  display: block;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+  background: var(--primary-color);;
+  font-size: 18px;
+  border-radius: 0.5rem;
+  padding: 12px;
+  border: 1px solid #fff;
+  margin: 1rem 0.3rem;
+  width: 60%;
+  color: #ffffff;
+}
+
+.active {
+  background: #3f51b5;
+  color: white;
+}
+
+.disabled {
+  background-color: #808080;
+}
+
+.hide {
+  display: none;
+}
+
+@media (max-width:799px){
+
+}
+
+.active_tab {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #ffffff;
+}
+
+.check_triangle_container {
+  padding-top: 50px;
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.output {
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+/* Quiz Style */
+
+.quiz-main {
+  margin: 2rem auto;
+  width: 90%;
+  text-align: center;
+}
+
+.question-container {
+  width: 85%;
+  margin: 1rem auto;
+  font-size: 18px;
+  padding: 5px 15px;
+  background-color: black;
+  color: white;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+.question-container p {
+  margin: 1rem 0;
+  text-align: initial;
+}
+
+input[type="radio"] {
+  width: 6%;
+  cursor: pointer;
+}
+
+input[type='radio']:checked:after {
+  width: 9px;
+  height: 9px;
+  border-radius: 15px;
+  top: -3px;
+  left: 10px;
+  position: relative;
+  background-color: #607d8b;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+.answer-container {
+  text-align: left;
+}
+
+.submit_answer {
+  width: 25%;
+}
+/* Hypotenuse  Style */
+.formula_top {
+  border-top: 2px solid var(--primary-color);
+  padding-top: 0.1rem;
+}
+
+.hypotenuse_container {
+  padding-top: 30px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.hypotenuse_container h3 {
+  margin-block: 15px;
+}
+
+.disable {
+  background-color: gray;
+}
+
+/* Area styles */
+.area_container {
+  padding-top: 15px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.area_container input {
+  margin: 0px 0px 15px;
+}
+
+.area_container h3 {
+  margin-block: 15px;
+}
